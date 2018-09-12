@@ -5,8 +5,6 @@ Created on Sep 3, 2018
 
 1. 暴力方法。
 2. hash table用空间换时间。 
-
-
 '''
 class Solution(object):
     def twoSum(self, nums, target):
@@ -15,6 +13,8 @@ class Solution(object):
         :type nums: List[int]
         :type target: int
         :rtype: List[int]
+        Time:
+        Space: 
         """
         a = dict()
         for idx, i in enumerate(nums):
@@ -27,6 +27,8 @@ class Solution(object):
     def twoSum2(self, nums, target):
         """
         hash table用空间换时间，1遍pass
+        Time:
+        Space:
         """
         a = dict()
         for idx, i in enumerate(nums):
@@ -35,7 +37,6 @@ class Solution(object):
                 return a[test], idx
             else:
                 a[i] = idx
-        
         
 if __name__ == '__main__':
     nums = [1,2,3,4,5]
