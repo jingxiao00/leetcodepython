@@ -2,6 +2,28 @@
 problem 3_Longest_Substring_Without_Repeating_Characters:
 	* 注意corner cases: 输入为 ""， 或者" ", 题目出现之后首先要写出corner case.
 	
+--------------------------------------------------------------------------------
+Operation complaxity:
+
+Unsorted List:
+	Insert	O(1)
+	find	O(n)
+	delete	O(n)
 	
-problem 
-	*
+Sorted Array:
+	Insert	O(n)
+	find	O(log n)
+	delete	O(n)
+
+Binary Search Tree
+	Insert	O(log n)
+	find	O(log n)
+	delete	O(log n)
+	
+HashSet: a = {}
+	Insert	O(1)	a[1] = '2' 
+	find	O(1)	is 1 in a? 
+	delete	O(1)	a.pop('key')
+
+Sorting general take nlog(n) time complaxity.
+--------------------------------------------------------------------------------
