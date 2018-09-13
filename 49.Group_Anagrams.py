@@ -21,8 +21,10 @@ The order of your output does not matter.
 
 
 Learned:
-1. how to use ord to convert a character to number. 
-2. how to crate a dict with list as initial value from python 'collections'.  
+1. How to use ord to convert a character to number. 
+2. How to crate a dict with list as initial value from python 'collections'.  
+3. The time complaxtiy for sorting is nlog(n)
+4. in python dict, if you want to insert a list as key, you will need to firstly convert it as tuple.
 '''
 
 import collections 
@@ -69,11 +71,6 @@ class Solution(object):
             d[tuple(k)].append(str)
                 
         return d.values()
-                    
-                
-                
-            
-            
                     
 if __name__ == '__main__':
     strs = ["eat", "tea", "tan", "ate", "nat", "bat"]

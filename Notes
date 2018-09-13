@@ -24,6 +24,10 @@ HashSet: a = {}
 	Insert	O(1)	a[1] = '2' 
 	find	O(1)	is 1 in a? 
 	delete	O(1)	a.pop('key')
+Set: a = set
+	Insert	O(1)	a.add(2) 
+	find	O(1)	is 1 in a? 
+	delete	O(1)	a.remove(2)
 
 Sorting general take nlog(n) time complaxity.
 --------------------------------------------------------------------------------
